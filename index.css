@@ -7,12 +7,13 @@
 }
 
 body{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
     height: 100vh;
     min-width: min-content;
-    background-image: url('./bg/bg.jpg');
+    /* background-image: url('./bg/bg.jpg'); */
+    background-image: url('./bg/bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,27 +21,19 @@ body{
     
 }
 
-/* .wapper{
-    position: relative;
-    width: min(100% - 3rem, 20rem);
-    height: min(100% - 3rem, 20rem);
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, .1);
-    backdrop-filter: blur(1rem);
-    border-radius: 1.3rem;
-    box-shadow: 0 0  5rem rgba(0, 0, 0, .9);
+.wapper{
+    width: min(100% - 2rem, 9.2rem);
+    height: min(100% - 1rem, 8.1rem);
+    /* border: 2px solid rgba(255, 255, 255,.1); */
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    cursor: url(./icon/cursor.png), auto;
-} */
-
+    justify-content: end;
+    align-items: end;
+}
 
 #icon{
-    padding: 0.1rem;
     background: transparent;
+    /* border: 2px solid rgba(255, 255, 255,.1); */
     border:none;
-    color: rgba(255, 255, 255,.5);
     background-image: url(./icon/mouse.png);
     width: min(100% - 2rem, 5rem);
     height: min(100% - 1rem, 5rem);
@@ -48,4 +41,3 @@ body{
     transition-property: transform;
     cursor: url(./icon/cursor.png), auto;
 }
-
