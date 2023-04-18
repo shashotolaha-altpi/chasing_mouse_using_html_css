@@ -20,6 +20,19 @@ body{
     cursor: url(./icon/cursor.png), auto;
     
 }
+button.twitter{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border: none;
+    border-radius: 50%;
+    height:  min(50% - 2rem, 3rem);
+    width: min(50% - 2rem, 3rem);
+    background-color: rgb(33, 188, 240);
+}
+a i{
+    font-size: 2rem;
+}
 
 .wapper{
     width: min(100% - 2rem, 9.2rem);
