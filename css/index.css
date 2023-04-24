@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    min-width: min-content;
+    /* background-image: url('./bg/bg.jpg'); */
+    background-image: url('../bg/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(../icon/cursor.png), auto;
+    
+}
+
+/* background image changing icon  */
+.btnwapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    height:  min(100% - 2rem, 3rem);
+    width: min(100% - 2rem, 15rem);
+}
+.btnwapper .changebtn{
+    height:  min(100% - .1rem, 3rem);
+    width: min(50%, 3rem);
+    overflow: hidden;
+    border-radius: 50%; 
+}
+.changebtn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.changebtn:hover,
+#twitter:hover{
+    cursor: pointer;
+    box-shadow: .4rem .3rem 1rem black;
+    transform: translateY(-2px);
+}
+
+
+/* social media */
+#twitter{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    text-align: center;
+    padding-top: .45rem;
+    height:  min(100% - .1rem, 3rem);
+    width: min(100% - .1rem, 3rem);
+    border-radius: 50%;
+    background-color: rgb(33, 188, 240);
+}
+a i{
+    font-size: 2rem;
+}
+
+
+/* Mouse */
+.wapper{
+    width: min(100% - 2rem, 9.2rem);
+    height: min(100% - 1rem, 8.1rem);
+    /* border: 2px solid rgba(255, 255, 255,.1); */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#icon{
+    border:none;
+    background-image: url(../icon/mouse.png);
+    width: min(100% - 2rem, 5rem);
+    height: min(100% - 1rem, 5rem);
+    background-size: cover;
+    transition-property: transform;
+}
